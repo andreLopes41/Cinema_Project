@@ -1,0 +1,76 @@
+body{
+    height: 100%;
+}
+h2{
+    color: dodgerblue;
+    text-align: center;
+}
+
+.box{
+    color: white;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border: 6px solid dodgerblue;
+    border-radius: 15px;
+    width: 25%;
+    margin-top: 20px;
+}
+.inputBox{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+}
+
+a{
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 20px; 
+}

@@ -1,0 +1,38 @@
+body{
+    background-size: 50%;
+    background-image: url(https://i.pinimg.com/736x/1e/80/b5/1e80b5d72209b48ae768747b2a8fae9b.jpg);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-80%);
+}
+
+.box{
+    font-size: 18px;
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+a{
+    width: 100%;
+}
+
+i{
+    font-weight: bold;
+}
+
+b{
+    color: red;
+}

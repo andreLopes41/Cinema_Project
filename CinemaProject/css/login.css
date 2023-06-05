@@ -1,0 +1,51 @@
+body{
+    background-size: 50%;
+    background-image: url(https://www.welovesolo.com/wp-content/uploads/vector/46/Movie-time-design-elements-vector-backgrounds-04.jpg);
+}
+
+h1{
+    letter-spacing: 4px;
+    color: white;        
+}
+
+
+div{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+
+input{
+    letter-spacing: 2px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.envio{
+    letter-spacing: 2px;
+   background-color: dodgerblue;
+   border: none;
+   padding: 15px;
+   width: 100%;
+   border-radius: 10px;
+   color: white;
+   font-size: 15px; 
+}
+
+.envio:hover{
+    background-color: deepskyblue;
+    cursor:pointer;
+}
+
+a{
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
